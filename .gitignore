@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local database
+db.sqlite3
+
+# PyCharm
+.idea/
+
+# Temporary files
+temp/
+
+# Generated image cache
+uploads/cache/
+
+# Personal desktop wallpapers
+uploads/images/TranscodedWallpaper*.jpg
+
+# Personal or test profile images
+uploads/images/profile/Uncharted_4__A_Thiefs_End_20220311191918.png
+uploads/images/profile/VictorSullivan.png
+# Django
+*.log
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# Python environments
+.env
+.env.*
+!.env.example
+
+# IDE
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
